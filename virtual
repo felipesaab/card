@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão Virtual - Felipe Saab</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        .card {
+            width: 100%;
+            max-width: flex;
+            height: 220px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background:  url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3RhdDM3bDE0bzF5dnhpb240a2tuZzZiOXVudmg5eHMyYjFuZmwyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/yykRMOASirNNRO9wfG/giphy.gif') no-repeat center center;
+            background-size: cover;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 40px;
+            text-align: center;
+        }
+        .content {
+            position: relative;
+            z-index: 2;
+        }
+        .name {
+            font-size: 60px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            margin-bottom: flex;
+            color: white;
+        }
+        .position {
+            font-size: flex;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            margin-bottom: flex;
+        }
+        .button-image {
+            width: 40px;
+            height: auto;
+            border-radius: 10px;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="name">Felipe Saab</div>
+            <div class="position">CTO - Diretor de Tecnologia</div>
+            <div class="position">@netbileducacional</div>
+            <a href="https://wa.me/55000000000" target="_blank">
+                <img src="https://i.ibb.co/nMF7KQz/whatsapp.png" alt="WhatsApp" class="button-image">
+            </a>
+            <a href="mailto:felipe.saab@netbil.com.br" target="_blank">
+                <img src="https://i.ibb.co/wzhVhTL/telegrama.png" alt="E-mail" class="button-image">
+            </a>
+            <a href="https://www.netbil.com.br" target="_blank">
+                <img src="https://i.ibb.co/T88mqs2/internet.png" alt="Site" class="button-image">
+            </a>
+            <a href="felipe_saab.vcf" download="Felipe Saab Netbil Educacional">
+                <img src="https://i.ibb.co/gPf1QgN/telefones.png" alt="Salvar Contato" class="button-image">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
